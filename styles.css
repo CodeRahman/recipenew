@@ -1,31 +1,32 @@
-.attribution { 
-    font-size: 11px; text-align: center; 
-    color: hsl(133, 91%, 45%);
+*,
+*:before,
+*:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
-
 body{
+    margin: 0;
+    padding: 0;
     background-color: bisque;
     display: flex;
     justify-content: center;
-    
 }
-
 .align{
-    
     display: flex;
     flex-direction: column;
+    margin-top: 30px;
 }
-
 .infobox{
     background-color: white;
-    width: 100%;
-    max-width: 600px;
+    width: 70%;
+    max-width: 700px;
     padding: 20px;
     border-radius: 20px;
-    align-content: center;
-    
-    
-    
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center; 
+    overflow: hidden;
 }
 #main-logo{
     width: 10px;
@@ -72,15 +73,11 @@ h4{
     margin-left: 17px;
 }
 
-#nv{
+.nv{
     color: hsl(14, 45%, 36%);
     font-weight: bold;
 }
 
-
-tr{
-    border-bottom: 2px black;
-}
 h1, h2, h3, h4, h5{
     font-family: "Young Serif", serif;
     font-weight: 400;
@@ -91,4 +88,20 @@ p, li, table{
     font-family: 'Outfit', sans-serif;
     font-style: normal;
 
+}
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+    color: hsl(133, 91%, 45%);
+}
+
+ul, ol{
+    margin-left: 35px;
+}
+table{
+    width:100%;
+    border-collapse: collapse;
+}
+tr{
+    border-bottom: 1px solid black;
 }
